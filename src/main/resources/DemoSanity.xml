@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Swag Labs Demo">
+	<listeners>
+		<listener
+			class-name="com.qa.demo.extentreport.ExtentReportListener" />
+	</listeners>
+	<test name="Demo Test Cases">
+		<classes>
+			<class name="com.qa.demo.testcases.LoginPageTest" />
+			<class name="com.qa.demo.testcases.HomePageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->  
